@@ -1,11 +1,10 @@
 //import components:
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import Body from './components/Body';
 import Footer from './components/Footer';
 
 //import router
-import {BrowserRouter as Router,} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
  
 const App = () => {
   return (
@@ -13,7 +12,20 @@ const App = () => {
     <Router>
       <Header />
       <Navigation />
-      <Body />
+      <Routes>
+        <Route path={'/'} 
+        element={<About />}
+        />
+        <Route path={'portfolio'}
+        element={<Portfolio />}
+        />
+        <Route path={'contact'}
+        element={<Contact />}
+        />
+        <Route path={'resume'}
+        element={<Resume />}
+        />
+      </Routes>
       <Footer />
     </Router>
     </>
