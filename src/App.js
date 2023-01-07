@@ -24,8 +24,8 @@ function App(){
 
   return (
     <>
-     <Header displayedPage={displayedPage} chamgePage={changePage}/>
-     {renderPage}
+     <Header displayedPage={displayedPage} changePage={changePage}/>
+     renderPage ={renderPage()}
      <Footer />
     </>
   )

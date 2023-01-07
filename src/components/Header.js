@@ -1,11 +1,14 @@
-import styles from './Header.module.css';
+import Footer from '../components/Navigation.js';
 
-const Header = () => {
+const Header = ({displayedPage, changePage}) => {
     return (
-        <header>
+        <header className={Header}>
             <div>
                 <h1>Deborah Wade</h1>
             </div>
+            <Footer />
         </header>
     )
 }
+
+export default Header;
