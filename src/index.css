@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Libre+Baskerville:wght@400;700&display=swap');
 :root {
   --main-background: #273043;
   --main-color: #9197AE;
@@ -9,3 +10,57 @@
   --main-type: 'Libre Baskerville', serif;
 }
 
+/* Page-wide*/
+body {
+  background-color: var(--main-background);
+  margin: 1.5em;
+}
+
+h1, h2, h3 {
+  font-family: var(--headings);
+  color: var(--secondary-contrast);
+}
+
+p{
+  font-family: var(--main-type);
+}
+
+/* header */
+header {
+  text-align: center;
+  padding: 1em;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+p {
+  font-family: var(--main-type);
+  color: var(--secondary-contrast);
+}
+/* Navigation */
+.Button:hover, .Button:focus, .selected {
+  background-color: var(--secondary-contrast);
+  color: var(--secondary-contrast);
+}
+
+
+/* About page */
+.aboutMain {
+  display: flex;
+  padding: 1em;
+}
+.aboutMain p {
+  padding: 2em;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+}
+
+.footer nav img {
+  max-width: 3em;
+  padding: 1em;
+}
