@@ -18,21 +18,32 @@ body {
 
 h1, h2, h3 {
   font-family: var(--headings);
+}
+
+h1 {
+  font-size: 3em;
+  color: var(--secondary-contrast);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: var(--main-color);
+  text-align: center;
+}
+h3 {
+  font-size: 1.5em;
   color: var(--secondary-contrast);
 }
 
 p{
   font-family: var(--main-type);
+  padding: 2em;
 }
 
 /* header */
 header {
   text-align: center;
-  padding: 1em;
-}
-
-header h1 {
-  font-size: 3em;
 }
 
 p {
@@ -47,18 +58,27 @@ p {
 
 
 /* About page */
-.about {
+.aboutMain {
   display: flex;
-  padding: 1em;
 }
-.about h2 {
-  text-align: center;
+/* Portfolio page */
+.projects {
   background-color: var(--main-color);
-  color: var(--main-background);
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
 }
-.about p {
-  padding: 2em;
+.projects img {
+  max-width: 25em;
 }
+.projects h3 {
+  color: var(--main-background)
+}
+.project {
+  text-align: center;
+}
+
 
 /* footer */
 .footer {
