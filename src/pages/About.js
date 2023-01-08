@@ -2,7 +2,8 @@ import dwade from '../assets/DeborahWorkSm.jpg';
 
 function About() {
     return (
-        <div className='aboutMain'>
+        <div className='about'>
+            <h2>About Deborah</h2><br />
             <img src={dwade} alt="Deborah Wade" height={400} />
             <p>Deborah has studied web development and design for the last 3 years. 
                 She has taken classes in Coding (C++, JavaScript, Java, and Swift), 
