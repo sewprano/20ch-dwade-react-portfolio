@@ -1,0 +1,45 @@
+[
+    {
+        "title": "NerdQuest",
+        "image": "/NerdQuest.png",
+        "link": "https://sheltered-shore-88493.herokuapp.com/",
+        "gitLink": "https://github.com/sewprano/02Project-Nerd_quiz",
+        "key": "1"
+    },
+    {
+        "title": "Couch Tuber",
+        "image": "/couchTuber.png",
+        "link": "https://couch-tuber.herokuapp.com/",
+        "gitLink": "https://github.com/sewprano/Project-3",
+        "key": "2"
+    }
+    //,
+    // {
+    //     "title": "Weather Dashboard",
+    //     "image": "",
+    //     "link": "",
+    //     "gitLink": "",
+    //     "key": "3"
+    // },
+    // {
+    //     "title": "Trip to Mars",
+    //     "image": "",
+    //     "link": "https://manuelakenna.github.io/trip-to-mars/",
+    //     "gitLink": "https://github.com/sewprano/01Project-trip-to-mars",
+    //     "key": "4"
+    // },
+    // {
+    //     "title": "Note Taker",
+    //     "image": "",
+    //     "link": "",
+    //     "gitLink": "",
+    //     "key": "5"
+    // },
+    // {
+    //     "title": "Javascript Quiz",
+    //     "image": "",
+    //     "link": "",
+    //     "gitLink": "",
+    //     "key": "6"
+    // }
+]
