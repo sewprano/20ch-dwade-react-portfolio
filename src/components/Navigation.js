@@ -1,19 +1,19 @@
-const Navigation = ({displayPage, changePage}) => {
+const Navigation = ({displayedPage, changePage}) => {
     return (
         <nav className="navigation">
-            <button className={displayPage === 'about' ? StyleSheet.selected : StyleSheet.Button}
+            <button className={displayedPage === 'about' ? 'selected' : 'button'}
             onClick={ () => changePage('about')}>
                 About Deborah
             </button>
-            <button className={displayPage === 'portfolio' ? StyleSheet.selected : StyleSheet.Button}
+            <button className={displayedPage === 'portfolio' ? 'selected' : 'button'}
             onClick={ () => changePage('portfolio')}>
                 Portfolio
             </button>
-            <button className={displayPage === 'contact' ? StyleSheet.selected : StyleSheet.Button}
+            <button className={displayedPage === 'contact' ? 'selected' : 'button'}
             onClick={ () => changePage('contact')}>
                 Contact
             </button>
-            <button className={displayPage === 'resume' ? StyleSheet.selected : StyleSheet.Button}
+            <button className={displayedPage === 'resume' ? 'selected' : 'button'}
             onClick={ () => changePage('resume')}>
                 Resume
             </button>

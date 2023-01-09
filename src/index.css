@@ -55,19 +55,19 @@ header {
 }
 
 /* Navigation */
-.navigation button:hover,
-.navigation button:focus,
-.selected
-{
-  background-color: var(--secondary-contrast);
-}
-.navigation button {
+.navigation .button, .selected {
   background-color: var(--main-color);
   border: none;
   padding: .5em;
   border-radius: .5em;
 }
 
+.selected,
+.navigation .button:hover,
+.navigation .button:focus
+{
+  background-color: var(--secondary-contrast);
+}
 
 /* About page */
 .aboutMain {
