@@ -1,6 +1,6 @@
 const Navigation = ({displayPage, changePage}) => {
     return (
-        <nav>
+        <nav className="navigation">
             <button className={displayPage === 'about' ? StyleSheet.selected : StyleSheet.Button}
             onClick={ () => changePage('about')}>
                 About Deborah

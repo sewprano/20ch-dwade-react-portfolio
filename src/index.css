@@ -32,13 +32,21 @@ h2 {
   text-align: center;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 2em;
   color: var(--secondary-contrast);
 }
-
-p{
+h4 {
+  font-size: 1.5em;
   font-family: var(--main-type);
+}
+p {
+  font-family: var(--main-type);
+  color: var(--secondary-contrast);
   padding: 2em;
+  line-height: 24pt;
+}
+button {
+  margin: 0 1em 0 1em;
 }
 
 /* header */
@@ -46,14 +54,18 @@ header {
   text-align: center;
 }
 
-p {
-  font-family: var(--main-type);
-  color: var(--secondary-contrast);
-}
 /* Navigation */
-.Button:hover, .Button:focus, .selected {
+.navigation button:hover,
+.navigation button:focus,
+.selected
+{
   background-color: var(--secondary-contrast);
-  color: var(--secondary-contrast);
+}
+.navigation button {
+  background-color: var(--main-color);
+  border: none;
+  padding: .5em;
+  border-radius: .5em;
 }
 
 
@@ -79,10 +91,50 @@ p {
   text-align: center;
 }
 
+/* Contact page  */
+.contactForm {
+  background-color: var(--main-color);
+  padding: 1em;
+  margin: 1em;
+}
+input, textarea {
+  width: 98%;
+  padding: .5em;
+  margin: .5em;
+  border-radius: .5em;
+  font-family: var(--main-type);
+}
+ 
 
+/* resume page */
+.resume {
+  text-align: center;
+}
+.resume a {
+  text-decoration: none;
+}
+.resume .button {
+  background-color: var(--main-color);
+  color: var(--main-background);
+  padding: .5em;
+  border-radius: .5em;
+}
+.proficiencies {
+  background-color: var(--main-color);
+  color: var(--main-background);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 10em 2em 10em;
+  padding-bottom: 1em;
+  
+}
+.frontEnd, .backEnd {
+  text-align: center;
+}
 /* footer */
 .footer {
   text-align: center;
+  margin: 2em;
 }
 
 .footer nav img {

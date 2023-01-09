@@ -68,21 +68,22 @@ const Form = () => {
     }
 
     return (
-        <form>
+        <form className="contactForm">
             <label>
                 <input value={name} name='name' onChange={handleInputChange} 
                        onBlur={handleClickAway} type='text' placeholder='Name' />
-            </label>
+            </label><br />
             <label>
                 <input value={email} name='email' onChange={handleInputChange} 
                        onBlur={handleClickAway} type='text' placeholder='Email' />
-            </label>
+            </label><br />
             <label>
-                <input value={message} name='massage' onChange={handleInputChange} 
+                <textarea value={message} name='massage' onChange={handleInputChange} 
                        onBlur={handleClickAway} type='text' placeholder='Message' rows={12}/>
-            </label>
+            </label><br />
             <div>
                 <button className="Button" onClick={formSubmit}>Submit</button>
+                <span>{error}</span>
             </div>
         </form>
     )
