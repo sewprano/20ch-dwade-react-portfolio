@@ -119,6 +119,9 @@ input, textarea {
   padding: .5em;
   border-radius: .5em;
 }
+.button:hover {
+  background-color: var(--secondary-contrast);
+}
 .proficiencies {
   background-color: var(--main-color);
   color: var(--main-background);
