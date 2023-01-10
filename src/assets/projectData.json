@@ -1,37 +1,37 @@
 [
     {
-        "title": "NerdQuest",
-        "image": "/images/NerdQuest.png",
-        "link": "https://sheltered-shore-88493.herokuapp.com/",
-        "gitLink": "https://github.com/sewprano/02Project-Nerd_quiz",
+        "title": "Weather Dashboard",
+        "image": "/images/weatherDashboard.png",
+        "link": "https://sewprano.github.io/06ch-apis-weather-dashboard/",
+        "gitLink": "https://github.com/sewprano/06ch-apis-weather-dashboard",
         "key": "1"
-    },
-    {
-        "title": "Couch Tuber",
-        "image": "/images/couchTuber.png",
-        "link": "https://couch-tuber.herokuapp.com/",
-        "gitLink": "https://github.com/sewprano/Project-3",
-        "key": "2"
     },
     {
         "title": "Trip to Mars",
         "image": "/images/Trip-to-mars.png",
         "link": "https://manuelakenna.github.io/trip-to-mars/",
         "gitLink": "https://github.com/sewprano/01Project-trip-to-mars",
-        "key": "3"
-    },
-    {
-        "title": "Weather Dashboard",
-        "image": "/images/weatherDashboard.png",
-        "link": "https://sewprano.github.io/06ch-apis-weather-dashboard/",
-        "gitLink": "https://github.com/sewprano/06ch-apis-weather-dashboard",
-        "key": "4"
+        "key": "2"
     },
     {
         "title": "Note Taker",
         "image": "/images/notesPage.png",
         "link": "https://ch11-express-note-taker.herokuapp.com/",
         "gitLink": "https://github.com/sewprano/11ch-express-note-taker",
+        "key": "3"
+    },
+    {
+        "title": "Couch Tuber",
+        "image": "/images/couchTuber.png",
+        "link": "https://couch-tuber.herokuapp.com/",
+        "gitLink": "https://github.com/sewprano/Project-3",
+        "key": "4"
+    },
+    {
+        "title": "NerdQuest",
+        "image": "/images/NerdQuest.png",
+        "link": "https://sheltered-shore-88493.herokuapp.com/",
+        "gitLink": "https://github.com/sewprano/02Project-Nerd_quiz",
         "key": "5"
     },
     {

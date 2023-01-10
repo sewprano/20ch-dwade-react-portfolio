@@ -10,6 +10,7 @@ import Resume from './pages/Resume.js';
 import { useState } from 'react';
 
  
+//display pages
 function App(){
   const [displayedPage, setDisplayedPage] = useState('about');
 
@@ -32,28 +33,3 @@ function App(){
 }
 
 export default App;
-
-
-// return (
-  //   <>
-  //   <Router>
-  //     <Header />
-  //     {/* <Navigation /> */}
-  //     <Routes>
-  //       <Route path={'/'} 
-  //       element={<About />}
-  //       />
-  //       <Route path={'portfolio'}
-  //       element={<Portfolio />}
-  //       />
-  //       <Route path={'contact'}
-  //       element={<Contact />}
-  //       />
-  //       <Route path={'resume'}
-  //       element={<Resume />}
-  //       />
-  //     </Routes>
-  //     <Footer />
-  //   </Router>
-  //   </>
-  // )
