@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/20ch-dwade-react-portfolio/static/css/main.54e4f4dd.css",
-    "main.js": "/20ch-dwade-react-portfolio/static/js/main.b45e8935.js",
+    "main.js": "/20ch-dwade-react-portfolio/static/js/main.c149bcca.js",
     "static/media/DeborahWorkSm.jpg": "/20ch-dwade-react-portfolio/static/media/DeborahWorkSm.4f1dde0400dca130d15d.jpg",
     "static/media/stack.png": "/20ch-dwade-react-portfolio/static/media/stack.2b57c63669410bce761f.png",
     "index.html": "/20ch-dwade-react-portfolio/index.html",
     "main.54e4f4dd.css.map": "/20ch-dwade-react-portfolio/static/css/main.54e4f4dd.css.map",
-    "main.b45e8935.js.map": "/20ch-dwade-react-portfolio/static/js/main.b45e8935.js.map"
+    "main.c149bcca.js.map": "/20ch-dwade-react-portfolio/static/js/main.c149bcca.js.map"
   },
   "entrypoints": [
     "static/css/main.54e4f4dd.css",
-    "static/js/main.b45e8935.js"
+    "static/js/main.c149bcca.js"
   ]
 }
