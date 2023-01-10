@@ -7,10 +7,10 @@
         "key": "1"
     },
     {
-        "title": "Trip to Mars",
-        "image": "/images/Trip-to-mars.png",
-        "link": "https://manuelakenna.github.io/trip-to-mars/",
-        "gitLink": "https://github.com/sewprano/01Project-trip-to-mars",
+        "title": "NerdQuest",
+        "image": "/images/NerdQuest.png",
+        "link": "https://project02-nerd-quiz.herokuapp.com",
+        "gitLink": "https://github.com/sewprano/02Project-Nerd_quiz",
         "key": "2"
     },
     {
@@ -28,10 +28,10 @@
         "key": "4"
     },
     {
-        "title": "NerdQuest",
-        "image": "/images/NerdQuest.png",
-        "link": "https://sheltered-shore-88493.herokuapp.com/",
-        "gitLink": "https://github.com/sewprano/02Project-Nerd_quiz",
+        "title": "Trip to Mars",
+        "image": "/images/Trip-to-mars.png",
+        "link": "https://manuelakenna.github.io/trip-to-mars/",
+        "gitLink": "https://github.com/sewprano/01Project-trip-to-mars",
         "key": "5"
     },
     {
