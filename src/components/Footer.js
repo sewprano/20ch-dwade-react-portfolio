@@ -1,16 +1,11 @@
 import github from '../assets/github.png';
-import email from '../assets/email.png';
+import stack from '../assets/stack.png';
 import linkedin from '../assets/linkedIn.png';
 
 function Footer() {
     return (
         <div className='footer'>
-            &copy; 2023 Deborah Wade | All images &copy;  DWade Photography 
             <nav>
-                <a href="mailto:sopranosamurai@yahoo.com">
-                    <img src={email} alt= 'email icon'/>
-                </a>
-
                 <a href="https://github.com/sewprano">
                     <img src={github} alt='github icon' />
                 </a>
@@ -18,8 +13,14 @@ function Footer() {
                 <a href="www.linkedin.com/in/deborah-wade">
                     <img src={linkedin} alt='LinkedIn icon' />
                 </a>
+
+                <a href="https://stackoverflow.com/users/19423978/sewprano">
+                    <img src={stack} alt= 'email icon'/>
+                </a>
                 
             </nav>
+
+            &copy; 2023 Deborah Wade
         </div>
     )
 }

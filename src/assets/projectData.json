@@ -14,31 +14,31 @@
         "key": "2"
     },
     {
-        "title": "Weather Dashboard",
-        "image": "",
-        "link": "",
-        "gitLink": "",
+        "title": "Trip to Mars",
+        "image": "/images/Trip-to-mars.png",
+        "link": "https://manuelakenna.github.io/trip-to-mars/",
+        "gitLink": "https://github.com/sewprano/01Project-trip-to-mars",
         "key": "3"
     },
     {
-        "title": "Trip to Mars",
-        "image": "",
-        "link": "https://manuelakenna.github.io/trip-to-mars/",
-        "gitLink": "https://github.com/sewprano/01Project-trip-to-mars",
+        "title": "Weather Dashboard",
+        "image": "/images/weatherDashboard.png",
+        "link": "https://sewprano.github.io/06ch-apis-weather-dashboard/",
+        "gitLink": "https://github.com/sewprano/06ch-apis-weather-dashboard",
         "key": "4"
     },
     {
         "title": "Note Taker",
-        "image": "",
-        "link": "",
-        "gitLink": "",
+        "image": "/images/notesPage.png",
+        "link": "https://ch11-express-note-taker.herokuapp.com/",
+        "gitLink": "https://github.com/sewprano/11ch-express-note-taker",
         "key": "5"
     },
     {
         "title": "Javascript Quiz",
-        "image": "",
-        "link": "",
-        "gitLink": "",
+        "image": "/images/quiz.png",
+        "link": "https://sewprano.github.io/04ch-JS-code-quiz/",
+        "gitLink": "https://github.com/sewprano/04ch-JS-code-quiz",
         "key": "6"
     }
 ]
